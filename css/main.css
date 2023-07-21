@@ -139,7 +139,7 @@ table thead,tbody{
 
 @media screen and (max-width: 767px) {
   main h1 {
-    font-size: 40px;
+    font-size: 25px;
   }
   
   .bookmark-body {
