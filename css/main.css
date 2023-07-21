@@ -2,12 +2,11 @@
 
 body {
   font-family: "PT Sans Caption", sans-serif;
-
 }
 
 main {
   min-height: 100vh;
-  background-color: #18191A !important;
+  background-color: #18191a !important;
   color: white !important;
 }
 
@@ -18,8 +17,8 @@ main h1 {
   isolation: isolate;
 }
 
-main h1::before { 
-  background-image: linear-gradient(to right,  #b5ac49,#0b0ea9);
+main h1::before {
+  background-image: linear-gradient(to right, #b5ac49, #0b0ea9);
   transition: height 400ms;
   z-index: -1;
   content: "";
@@ -47,10 +46,9 @@ main h1:hover::before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-align: center;
-
 }
 
-#submitBtn{
+#submitBtn {
   background-image: linear-gradient(to right, #0b0ea9, #b5ac49);
   font-family: "Righteous", cursive;
   font-size: 25px;
@@ -59,7 +57,7 @@ main h1:hover::before {
 .form-control:focus {
   color: #212529;
   background-color: #fff;
-  border-color:#444444;
+  border-color: #444444;
   outline: 0;
 }
 
@@ -72,30 +70,26 @@ main h1:hover::before {
   --bs-btn-hover-border-color: #ba081d;
 }
 
-
-
 .btn-visit {
   --bs-btn-color: #fff;
   --bs-btn-bg: #0b0ea9;
   --bs-btn-border-color: #0b0ea9;
   --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #0004ff;
-  --bs-btn-hover-border-color: #0004ff  ; 
+  --bs-btn-hover-border-color: #0004ff;
 }
 
 table {
   vertical-align: middle !important;
-  
 }
-table thead{
-  background-image: linear-gradient(to right,  #b5ac49,#0b0ea9);
-  color: white !important; 
-
-
+table thead {
+  font-size: larger;
+font-weight: bold;
 }
-table tbody{
-  background-color: #18191A !important;
-  color: white !important; 
+table thead,
+tbody {
+  background-color: #18191a !important;
+  color: white !important;
 }
 .box-info {
   background-color: #0007;
@@ -117,7 +111,6 @@ table tbody{
   font-size: 18px;
   padding-top: 10px;
   color: #352e28;
-
 }
 .rules i {
   color: #bb4120;
@@ -145,9 +138,9 @@ table tbody{
 
 @media screen and (max-width: 767px) {
   main h1 {
-    font-size: 21px;
+    font-size: 24px;
   }
-  
+
   .bookmark-body {
     border-width: 0;
   }
