@@ -25,13 +25,13 @@ main h1::before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 30%;
+  height: 25%;
   left: 0;
   bottom: 10px;
 }
 
 main h1:hover::before {
-  height: 50%;
+  height: 75%;
 }
 
 .bookmark-body {
@@ -139,7 +139,7 @@ table thead,tbody{
 
 @media screen and (max-width: 767px) {
   main h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
   
   .bookmark-body {
