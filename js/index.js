@@ -31,7 +31,10 @@ function displayBookmark(indexOfWebsite) {
   var newBookmark = `
               <tr>
                 <td>${indexOfWebsite + 1}</td>
-                <td>${bookmarks[indexOfWebsite].siteName}</td>              
+                <td>
+                <img src="${getFavicon(validURL)}" alt="Website Icon" style="width: 16px; height: 16px; margin-right: 8px;">
+                ${bookmarks[indexOfWebsite].siteName}
+              </td>                          
                 <td>
                   <button class="btn btn-visit" data-index="${indexOfWebsite}">
                     <i class="fa-solid fa-eye pe-2"></i>Visit
@@ -138,7 +141,9 @@ function validate(element, regex) {
     element.classList.remove("is-valid");
   }
 }
-
+    function getFavicon(url) {
+      return 'https://www.google.com/s2/favicons?sz=64&domain=' + encodeURIComponent(url);
+    }
 function closeModal() {
   boxModal.classList.add("d-none");
 }
