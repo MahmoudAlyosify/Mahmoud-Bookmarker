@@ -135,3 +135,31 @@ table thead,tbody{
 .logo {
   width: 40px;
 }
+
+@media screen and (max-width: 767px) {
+  main h1 {
+    font-size: 48px;
+  }
+  
+  .bookmark-body {
+    border-width: 0;
+  }
+
+  .bookmark-body h2 {
+    font-size: 20px;
+  }
+
+  .site-name,
+  .site-url,
+  #submitBtn {
+    width: 100%;
+  }
+
+  table {
+    font-size: 14px;
+  }
+
+  .box-conent {
+    width: 90%;
+  }
+}
