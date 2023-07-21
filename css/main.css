@@ -87,7 +87,13 @@ table {
   vertical-align: middle !important;
   
 }
-table thead,tbody{
+table thead{
+  background-image: linear-gradient(to right,  #b5ac49,#0b0ea9);
+  color: white !important; 
+
+
+}
+table tbody{
   background-color: #18191A !important;
   color: white !important; 
 }
@@ -139,7 +145,7 @@ table thead,tbody{
 
 @media screen and (max-width: 767px) {
   main h1 {
-    font-size: 25px;
+    font-size: 21px;
   }
   
   .bookmark-body {
